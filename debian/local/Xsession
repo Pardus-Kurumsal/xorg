@@ -78,6 +78,15 @@ exec >>"$ERRFILE" 2>&1
 
 echo "$PROGNAME: X session started for $LOGNAME at $(date)"
 
+# Load profile
+set +e
+for file in "/etc/profile" "$HOME/.profile"; do
+  if [ -f "$file" ] && ! . "$file"; then
+    echo "Error loading $file"
+  fi
+done
+set -e
+
 # sanity check; is our session script directory present?
 if [ ! -d "$SYSSESSIONDIR" ]; then
   errormsg "no \"$SYSSESSIONDIR\" directory found; aborting."
