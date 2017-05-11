@@ -1,3 +1,7 @@
+xorg (1:7.7+19pardus1) onyedi; urgency=medium
+
+  * Rebase everything against the debian branch
+
 xorg (1:7.7+19) unstable; urgency=medium
 
   [ Julien Cristau ]
@@ -8,7 +12,7 @@ xorg (1:7.7+19) unstable; urgency=medium
 
   [ Cihangir Akturk ]
 
- -- Cihangir Akturk <cihangir@pardus.org.tr>  Thu, 11 May 2017 14:44:28 +0300
+ -- Cihangir Akturk <cihangir@pardus.org.tr>  Thu, 11 May 2017 14:52:29 +0300
 
 xorg (1:7.7+18pardus1) pardus; urgency=medium
 
