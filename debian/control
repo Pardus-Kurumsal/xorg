@@ -105,7 +105,6 @@ Depends:
  xfonts-utils,
  xkb-data,
  xorg-docs-core,
- xterm | x-terminal-emulator,
  ${misc:Depends},
 Provides: x-window-system, x-window-system-core
 Suggests:
