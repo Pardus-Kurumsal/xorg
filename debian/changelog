@@ -1,3 +1,9 @@
+xorg (1:7.7+19pardus2) onyedi; urgency=medium
+
+  * debian/control: don't pull xterm as dependency
+
+ -- Cihangir Akturk <cihangir@pardus.org.tr>  Tue, 05 Sep 2017 16:28:16 +0300
+
 xorg (1:7.7+19pardus1) onyedi; urgency=medium
 
   * Rebase everything against the debian branch
